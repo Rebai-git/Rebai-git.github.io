@@ -1,0 +1,23 @@
+div {
+  font-family:"Arial";
+}
+.Title{
+  font-size: 48px;
+  font-weight: Bold;
+  font-style:italic
+}
+.Semititle{
+  color:white;
+  font-weight: Bold;
+  font-style:italic
+    
+}
+
+
+a:link {
+  text-decoration:none;
+}
+
+a:hover {
+  color:purple;
+}
