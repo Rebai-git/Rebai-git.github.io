@@ -1,23 +1,36 @@
-div {
-  font-family:"Arial";
+body {
+  color:RGB(102, 204, 145);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.Title{
-  font-size: 48px;
-  font-weight: Bold;
-  font-style:italic
+table.portfolio{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
-.Semititle{
-  color:white;
-  font-weight: Bold;
-  font-style:italic
-    
+
+span.bigTitle {
+color:black;
+font-size: 60px;
+}
+
+span.sections {
+  color:black;
+  font-size: 30px;
 }
 
 
-a:link {
-  text-decoration:none;
+span.semiTitle {
+  color:blueviolet;
+  font-size: 30px;
 }
 
+a.connectingLinks {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+a.Links {
+  text-decoration: none;
+}
 a:hover {
-  color:purple;
+  color:rgb(16, 69, 4);
 }
