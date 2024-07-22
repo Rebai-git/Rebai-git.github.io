@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MyGame</title>
+        <script type="text/javascript">
+            function calculateScore(){
+                var score = 0;
+                var name = document.mcq.name.value;
+                if (document.mcq.q1.value == "One Piece") {
+                    score+= 20;
+                }
+                if (document.mcq.q2.value == "Fornite") {
+                    score+= 20;
+                }
+                if (document.mcq.q3.value == "Nobuya") {
+                    score+= 20;
+                }
+                if (document.mcq.q4.value == "England") {
+                    score+= 20;
+                }
+                if (document.mcq.q5.value == "Si Thu Aung") {
+                    score+= 20;
+                }
+                alert("Hello, " + name + "! Your score is " + score);
+            }
+        </script>
+    </head>
+    <body>
+        <form name="mcq">
+            Name: <input type="text" size="20" name="name">
+            <br>
+            What is my favourite anime?
+            <select name="q1">
+                <option></option>
+                <option value="Naruto">Naruto</option>
+                <option value="DragonBall">DragonBall</option>
+                <option value="Boruto">boruto</option>
+                <option value="One Piece">One Piece</option>
+            </select>
+            <br>
+            Which one is the game I hate?
+            <select name="q2">
+                <option></option>
+                <option value="Rainbow Six Seige">Rainbow Six Seige</option>
+                <option value="Fornite">Fornite</option>
+                <option value="Minecraft">Minecraft</option>
+                <option value="Dota2">Dota2</option>
+            </select>
+            <br>
+            Who is my best friend at ISSE?
+            <select name="q3">
+                <option></option>
+                <option value="Nobuya">Nobuya</option>
+                <option value="Guhan">Guhan</option>
+                <option value="Texas">Texas</option>
+                <option value="Ash">Ash</option>
+            </select>
+            <br>
+            The Country I want to visit?
+            <select name="q4">
+                <option></option>
+                <option value="Japan">Japan</option>
+                <option value="England">England</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <br>
+            Who is the smartest in ISSE?
+            <select name="q5">
+                <option></option>
+                <option value="Gilbert">Gilbert</option>
+                <option value="Nobuya">Nobuya</option>
+                <option value="Nicho">Nicho</option>
+                <option value="Si Thu Aung">Si Thu Aung</option>
+            </select>
+            <br>
+            <input type="reset" value="RESET" name="resetButton">
+            <input type="button" value="SUBMIT" name="submitButton" onclick="calculateScore()">
+        </form>
+
+        <br>
+        <a href="index.html">HOME</a>
+    </body>
+</html>
